@@ -6,14 +6,13 @@
  */
 int main(void)
 {
-/*String containing digits from 0 to 9*/
-char digits[] = "0123456789";
 int i = 0;
 while (i < 10)
 {
-putchar(digits[i]);
-putchar('\n');
+putchar(i + '0');
 i++;
 }
+putchar('\n'); /* Print a new line after all digits*/
 return (0);
 }
+
