@@ -15,4 +15,3 @@ i++;
 putchar('\n'); /* Print a new line after all digits*/
 return (0);
 }
-
